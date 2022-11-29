@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <style>
+        table{
+            margin-top: 20px;
+            border-collapse: collapse;
+            border-color: black;
+        }
+        th,tr{
+            color: black
+        }
+    </style>
+</head>
+<body >
+
+    <form>
+        <center>
+            <table  bgcolor="white" border="0px" cellpadding="10px" cellspacing="5px" >
+                <tr>
+                    <th colspan="2"><p style="font-size: 20px;">Registration Form</p></th>
+                </tr>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" size="50" placeholder="Enter your Name"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" size="50" name="" id="" placeholder="Enter your Mail Id"></td>
+                </tr>
+                <tr>
+                    <td>DOB</td>
+                    <td><input type="date" style="width: 310px;"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" size="50" placeholder="Enter your Password" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td>Course</td>
+                    <td>
+                        <select style="width:200px;">
+                            <option>Select Course</option>
+                            <option>B Com</option>
+                            <option>MCA</option>
+                            <option>Engineering</option>
+                            <option>B.Sc Computer Science</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="gen" id="">Male
+                    <input type="radio" name="gen" id="">Female
+                    <input type="radio" name="gen" id="">Others</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="" id="" cols="40" rows="4"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Skills</td>
+                    <td>
+                        <input type="checkbox" name="" id="">C
+                        <input type="checkbox" name="" id="">C++
+                        <input type="checkbox" name="" id="">JAVA
+                        <input type="checkbox" name="" id="">Python
+                    </td>
+                </tr>
+                <tr>
+                    <td>Browse</td>
+                    <td><input type="file" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                            <input type="submit" value="Submit">
+                            <input type="submit" value="Clear">
+                            <button>Delete</button>
+                            <button>Update</button>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <center>
+                            <p>  Already Registered? <a href="login.html">Login</a></p>
+                           
+                            
+                        </center>
+                    </td>
+
+                </tr>
+                
+            </table>
+            
+        </center>
+    </form>
+
+    
+</body>
+</html>
